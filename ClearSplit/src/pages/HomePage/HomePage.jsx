@@ -1,11 +1,11 @@
-// import WarehouseList from "../../components/WarehouseList/WarehouseList";
 import "./HomePage.scss";
+import Groups from "../../components/Groups/Groups";
 
 function HomePage() {
   return (
-    <>
-      {/* <WarehouseList /> */}
-    </>
+    <main className="homepage">
+      <Groups />
+    </main>
   );
 }
 
