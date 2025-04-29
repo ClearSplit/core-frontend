@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
-import logo from "../../assets/logo.jpg";
+
 
 function Header() {
     return (
-    <header className="header__container">
+    <header className="header">
       <NavLink to="/">
-        <img src={logo} alt="Logo" className="header__logo"/>
+        <h1 className="header__title">ClearSplit</h1>
       </NavLink>
     </header>
 );

@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixins" as *;
+
+.header {
+  background-color: #f8f9fb;
+  padding: 1rem;
+  text-align: center;
+
+  &__title {
+    color: #1098f7;
+    @include text-style(1.75rem, 2rem, 700);
+  }
+}
