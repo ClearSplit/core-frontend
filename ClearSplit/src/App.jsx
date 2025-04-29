@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './components/Header/Header';
+import HomePage from './pages/HomePage/HomePage';
 
 import './App.scss'
 
@@ -12,7 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         {/* <Route path="/warehouses/:warehouseId" element={<WarehouseDetailsPage />}/> */}
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
